@@ -2,12 +2,13 @@
 import { Speaker, ProgramItem, Partner } from './types';
 
 export const EVENT_INFO = {
-  name: "Heads of National Regulatory Authorities Forum",
+  name: "First AMA Heads of NRAs and RECs Coordinators Forum",
+  theme: "Building the African Medicines Agency Together",
   dates: "29 – 30 January 2026",
-  venue: "Kigali Convention Centre (KCC)",
+  venue: "Kigali, Rwanda",
   location: "Kigali, Rwanda",
   organizer: "African Medicines Agency (AMA)",
-  frequency: "Annual (Recurring Event)"
+  frequency: "Two-day Forum"
 };
 
 export const SPEAKERS: Speaker[] = [
@@ -52,35 +53,49 @@ export const PROGRAM: ProgramItem[] = [
     time: "08:30 - 09:30",
     day: 1,
     title: "Registration & Morning Coffee",
-    description: "Welcome of delegates at the KCC Main Hall."
+    description: "Welcome of delegates. Registration and networking."
   },
   {
     id: "d1-2",
     time: "09:30 - 11:00",
     day: 1,
-    title: "Official Opening Ceremony",
-    description: "Welcome remarks from AMA leadership and the Host Government. Keynote address on 'The Future of African Regulatory Systems'."
+    title: "Official Opening & AMA Updates",
+    description: "Welcome remarks from AMA leadership and Host Government. Updates on AMA operationalisation including transition from AMRH initiative."
   },
   {
     id: "d1-3",
     time: "11:30 - 13:00",
     day: 1,
-    title: "Plenary: Harmonisation Milestones",
-    description: "Review of progress in continental harmonisation and reliance initiatives."
+    title: "Continental Systems for 2026",
+    description: "Inputs into AMA's proposed continental systems for Medical Product Vigilance, Quality Monitoring, and Clinical Trials coordination."
+  },
+  {
+    id: "d1-4",
+    time: "14:00 - 16:00",
+    day: 1,
+    title: "AMA Technical Committees & Capacity Building",
+    description: "Deliberations on AMA Technical Committees, Advisory Committees, and co-creating the AMA Tiered Capacity-Building Strategy."
   },
   {
     id: "d2-1",
     time: "09:00 - 11:00",
     day: 2,
-    title: "Closed-door Strategic Session",
-    description: "Restricted to Heads of NRAs. Collective decision-making on priority reforms."
+    title: "SME & Innovation Office / Local Manufacturing",
+    description: "Discussion on the proposed AMA SME & Innovation Office and how it can support local and regional manufacturing of medical products."
   },
   {
     id: "d2-2",
+    time: "11:30 - 13:00",
+    day: 2,
+    title: "AMA Headquarters Tour",
+    description: "Guided tour of the AMA Headquarters building in Kigali."
+  },
+  {
+    id: "d2-3",
     time: "14:00 - 16:00",
     day: 2,
-    title: "Adoption of Chair’s Summary",
-    description: "Finalizing and signing of the forum communique and future roadmaps."
+    title: "2026 Work Plan & Closing",
+    description: "Alignment on priority activities for 2026 and adoption of the AMA/NRAs/RECs Draft Work Plan. Closing remarks."
   }
 ];
 

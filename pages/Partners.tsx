@@ -1,8 +1,11 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { PARTNERS } from '../constants';
 import { Handshake, HelpCircle, ExternalLink } from 'lucide-react';
 
 const Partners: React.FC = () => {
+  const { t } = useTranslation();
+
   const organizer = PARTNERS.filter((p) => p.type === 'Organizer');
   const host = PARTNERS.filter((p) => p.type === 'Host');
   const others = PARTNERS.filter(
@@ -14,10 +17,10 @@ const Partners: React.FC = () => {
       <section className="bg-ama-gold py-20 text-ama-maroon text-center">
         <div className="container mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-6 animate-fade-in-down">
-            Partners & Sponsors
+            {t('partners.title')}
           </h1>
           <p className="text-xl text-ama-maroon/80 max-w-3xl mx-auto font-medium animate-fade-in-up animate-delay-200">
-            Collaboration is the foundation of our regulatory ecosystem.
+            {t('partners.subtitle')}
           </p>
         </div>
       </section>
@@ -27,7 +30,7 @@ const Partners: React.FC = () => {
           {/* Organizers */}
           <div className="mb-24 text-center">
             <h2 className="text-3xl font-extrabold text-slate-900 mb-12 animate-fade-in">
-              Organizing Entity
+              {t('partners.organizingEntity')}
             </h2>
             <div className="flex justify-center">
               {organizer.map((p) => (
@@ -54,7 +57,7 @@ const Partners: React.FC = () => {
           {/* Host */}
           <div className="mb-24 text-center">
             <h2 className="text-3xl font-extrabold text-slate-900 mb-12 animate-fade-in">
-              Host
+              {t('partners.host')}
             </h2>
             <div className="flex justify-center">
               {host.map((p) => (
@@ -71,7 +74,7 @@ const Partners: React.FC = () => {
                   </div>
                   <h4 className="text-xl font-bold">{p.name}</h4>
                   <p className="text-sm text-ama-green font-bold mt-2">
-                    Official Host Entity
+                    {t('partners.officialHostEntity')}
                   </p>
                 </div>
               ))}
@@ -81,7 +84,7 @@ const Partners: React.FC = () => {
           {/* Strategic & Technical */}
           <div className="text-center">
             <h2 className="text-3xl font-extrabold text-slate-900 mb-12 animate-fade-in">
-              Strategic Partners
+              {t('partners.strategicPartners')}
             </h2>
             <div className="flex flex-wrap justify-center gap-8 mx-auto max-w-5xl">
               {others.map((p, idx) => (
@@ -98,7 +101,7 @@ const Partners: React.FC = () => {
                   </div>
                   <h4 className="text-lg font-bold">{p.name}</h4>
                   <p className="text-xs text-slate-500 font-medium uppercase mt-2 tracking-widest">
-                    {p.type} Partner
+                    {p.type} {t('partners.partnerLabel')}
                   </p>
                 </div>
               ))}
@@ -113,62 +116,59 @@ const Partners: React.FC = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
             <div>
               <Handshake className="text-ama-gold mb-6" size={64} />
-              <h2 className="text-4xl font-extrabold mb-6">Partner With Us</h2>
+              <h2 className="text-4xl font-extrabold mb-6">{t('partners.partnerWithUs.title')}</h2>
               <p className="text-slate-400 text-lg mb-8">
-                Showcase your organization’s commitment to Africa’s health
-                system resilience. We offer various partnership tiers for
-                technical agencies, donors, and academic institutions.
+                {t('partners.partnerWithUs.description')}
               </p>
               <div className="space-y-4">
                 <div className="flex items-center gap-3">
                   <div className="w-6 h-6 rounded-full bg-ama-gold/20 flex items-center justify-center text-ama-gold">
                     <ExternalLink size={14} />
                   </div>
-                  <span>Strategic Leadership Alignment</span>
+                  <span>{t('partners.partnerWithUs.benefit1')}</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-6 h-6 rounded-full bg-ama-gold/20 flex items-center justify-center text-ama-gold">
                     <ExternalLink size={14} />
                   </div>
-                  <span>High-level Networking Opportunities</span>
+                  <span>{t('partners.partnerWithUs.benefit2')}</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-6 h-6 rounded-full bg-ama-gold/20 flex items-center justify-center text-ama-gold">
                     <ExternalLink size={14} />
                   </div>
-                  <span>Continental Visibility</span>
+                  <span>{t('partners.partnerWithUs.benefit3')}</span>
                 </div>
               </div>
             </div>
 
             <div className="bg-white/5 p-10 rounded-[3rem] border border-white/10">
               <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                <HelpCircle className="text-ama-gold" size={24} /> Sponsorship
-                Inquiry
+                <HelpCircle className="text-ama-gold" size={24} /> {t('partners.inquiry.title')}
               </h3>
               <form className="space-y-4">
                 <input
                   type="text"
-                  placeholder="Full Name"
+                  placeholder={t('partners.inquiry.fullName')}
                   className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white focus:border-ama-gold outline-none"
                 />
                 <input
                   type="email"
-                  placeholder="Email Address"
+                  placeholder={t('partners.inquiry.email')}
                   className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white focus:border-ama-gold outline-none"
                 />
                 <input
                   type="text"
-                  placeholder="Organization"
+                  placeholder={t('partners.inquiry.organization')}
                   className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white focus:border-ama-gold outline-none"
                 />
                 <textarea
-                  placeholder="Tell us about your interest..."
+                  placeholder={t('partners.inquiry.message')}
                   rows={4}
                   className="w-full bg-white/10 border border-white/10 rounded-xl px-4 py-3 text-white focus:border-ama-gold outline-none resize-none"
                 ></textarea>
                 <button className="w-full bg-ama-gold text-ama-maroon font-bold py-4 rounded-xl hover:shadow-xl transition-all">
-                  Send Inquiry
+                  {t('partners.inquiry.submit')}
                 </button>
               </form>
             </div>

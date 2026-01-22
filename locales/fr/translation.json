@@ -1,0 +1,349 @@
+{
+  "event": {
+    "name": "Premier Forum AMA des Chefs des ANR et Coordinateurs des CER",
+    "theme": "Construire l'Agence Africaine du Médicament Ensemble"
+  },
+  "nav": {
+    "home": "Accueil",
+    "about": "À propos",
+    "speakers": "Intervenants",
+    "program": "Programme",
+    "destination": "Destination",
+    "partners": "Partenaires",
+    "register": "S'inscrire"
+  },
+  "home": {
+    "subtitle": "Premier Forum",
+    "tagline": "Construire l'Agence Africaine du Médicament Ensemble",
+    "hero": {
+      "badge": "Premier Forum 2026",
+      "description": "Établir une vision partagée et une relation de travail pratique entre l'AMA, les Chefs des ANR et les Coordinateurs des CER.",
+      "date": "Date",
+      "venue": "Lieu"
+    },
+    "countdown": {
+      "days": "Jours",
+      "hours": "Heures",
+      "mins": "Min",
+      "secs": "Sec"
+    },
+    "stats": {
+      "memberStates": "États Parties",
+      "policyMakers": "Participants Attendus",
+      "partners": "Partenaires Stratégiques",
+      "annualValue": "2",
+      "flagshipEvent": "Jours de Dialogue"
+    },
+    "introduction": {
+      "label": "Objectif Global",
+      "title": "Construire l'Agence Africaine du Médicament Ensemble",
+      "description": "Établir une vision partagée et une relation de travail pratique entre l'AMA, les Chefs des ANR et les Coordinateurs des CER autour des priorités 2026 de l'AMA – surveillance de la qualité et de la sécurité, collaboration réglementaire, systèmes numériques, renforcement des capacités et soutien à la fabrication locale.",
+      "point1": "Système continental de vigilance des produits médicaux",
+      "point2": "Collaboration et confiance réglementaires",
+      "point3": "Comités techniques et consultatifs de l'AMA",
+      "point4": "Soutien à la fabrication locale via le Bureau PME de l'AMA",
+      "readMore": "Lire la note conceptuelle complète",
+      "quote": "L'AMA entre dans une phase décisive d'opérationnalisation.",
+      "quoteAuthor": "Agence Africaine du Médicament"
+    },
+    "whyAttend": {
+      "title": "Pourquoi Participer au Forum ?",
+      "description": "Rejoignez les chefs des ANR, les représentants de l'UA et les partenaires mondiaux pour façonner l'avenir de la réglementation des médicaments en Afrique.",
+      "card1": {
+        "title": "Leadership Stratégique",
+        "description": "Participez à un dialogue politique de haut niveau avec les dirigeants réglementaires continentaux et les décideurs."
+      },
+      "card2": {
+        "title": "Alignement Continental",
+        "description": "Alignez les priorités nationales avec le mandat continental de l'Agence Africaine du Médicament."
+      },
+      "card3": {
+        "title": "Renforcement des Capacités",
+        "description": "Favorisez la confiance entre les régulateurs et promouvez les mécanismes de confiance et de convergence."
+      }
+    },
+    "speakers": {
+      "label": "Invités Distingués",
+      "title": "Intervenants en Vedette"
+    },
+    "cta": {
+      "title": "Réservez Votre Place au Dialogue Continental",
+      "description": "L'inscription est ouverte aux Chefs des ANR, aux représentants de la Commission de l'UA et aux partenaires techniques sélectionnés.",
+      "button": "Devenir Partenaire"
+    },
+    "sections": {
+      "about": {
+        "title": "Une Nouvelle Ère de Coopération Réglementaire",
+        "description": "Le Forum des Chefs des Autorités Nationales de Réglementation (HNRA) 2026 est un rassemblement historique conçu pour renforcer les réseaux réglementaires à travers l'Afrique. Cet événement inaugural réunira des dirigeants de tous les coins du continent.",
+        "highlight1": {
+          "title": "Couverture Continentale",
+          "description": "Régulateurs des 55 États membres de l'UA"
+        },
+        "highlight2": {
+          "title": "Panels d'Experts",
+          "description": "Sessions animées par des leaders mondiaux de la santé"
+        },
+        "highlight3": {
+          "title": "Résultats Stratégiques",
+          "description": "Cadres d'action pour l'harmonisation"
+        },
+        "learnMore": "En Savoir Plus sur le Forum"
+      },
+      "speakers": {
+        "title": "Intervenants Distingués",
+        "description": "Écoutez les leaders qui façonnent l'avenir de la réglementation sanitaire en Afrique",
+        "viewAll": "Voir Tous les Intervenants"
+      },
+      "cta": {
+        "title": "Faites Partie de l'Histoire",
+        "description": "Le Forum HNRA inaugural représente un moment charnière pour la réglementation sanitaire africaine. Ne manquez pas cette opportunité de vous connecter avec vos pairs, de partager vos connaissances et de façonner l'avenir de la réglementation des médicaments sur le continent.",
+        "button": "Réservez Votre Place Aujourd'hui"
+      }
+    }
+  },
+  "about": {
+    "title": "À Propos du Forum",
+    "subtitle": "Un rassemblement historique pour façonner l'avenir de la réglementation des médicaments en Afrique",
+    "headerSubtitle": "Établir une plateforme continentale de haut niveau pour le leadership réglementaire et le dialogue politique.",
+    "executiveSummary": {
+      "title": "Résumé Exécutif",
+      "p1": "Le Forum des Chefs des Autorités Nationales de Réglementation est une plateforme continentale de haut niveau réunissant les Chefs des Autorités Nationales de Réglementation des Médicaments (ANR) des États membres de l'Union Africaine.",
+      "p2": "Organisé annuellement par l'Agence Africaine du Médicament (AMA) en collaboration avec un gouvernement hôte, le Forum offre un leadership stratégique, un dialogue politique et une prise de décision collective pour faire progresser l'harmonisation réglementaire et renforcer l'écosystème réglementaire des médicaments en Afrique.",
+      "p3": "Le Forum inaugural aura lieu les 29-30 janvier 2026 au Centre de Conventions de Kigali, Rwanda. Il réunira des dirigeants réglementaires de haut niveau, des décideurs et des partenaires sélectionnés pour s'aligner sur les réformes réglementaires prioritaires."
+    },
+    "background": {
+      "title": "Contexte et Historique",
+      "p1": "Les systèmes réglementaires fragmentés et les capacités inégales à travers l'Afrique continuent de retarder l'accès aux médicaments, vaccins, dispositifs médicaux et diagnostics de qualité assurée.",
+      "p2": "L'Agence Africaine du Médicament a été créée par l'Union Africaine pour renforcer la coordination, promouvoir l'harmonisation et soutenir la confiance réglementaire à travers les États membres de l'UA. Le Forum répond au besoin d'un engagement soutenu des dirigeants de haut niveau."
+    },
+    "objectives": {
+      "title": "Objectifs du Forum",
+      "obj1": "Fournir une plateforme de dialogue de leadership",
+      "obj2": "Examiner les progrès de l'harmonisation",
+      "obj3": "Renforcer la collaboration AMA & ANR",
+      "obj4": "Convenir des actions politiques prioritaires"
+    },
+    "eventDetails": {
+      "title": "Détails de l'Événement",
+      "dates": "Dates",
+      "venue": "Lieu",
+      "frequency": "Fréquence",
+      "frequencyValue": "Annuel (Événement Récurrent)"
+    },
+    "impact": {
+      "title": "Résultats et Impact Attendus",
+      "subtitle": "Établir les fondements d'un système de santé résilient grâce à des efforts réglementaires coordonnés.",
+      "card1": {
+        "title": "Institutionnalisation",
+        "description": "Institutionnaliser le Forum comme convocation annuelle phare des dirigeants réglementaires."
+      },
+      "card2": {
+        "title": "Résilience du Système",
+        "description": "Des systèmes réglementaires plus solides, fondamentaux pour des systèmes de santé résilients à travers l'Afrique."
+      },
+      "card3": {
+        "title": "Orientation Stratégique",
+        "description": "Fournir une orientation stratégique claire à l'AMA et accroître l'adoption des mécanismes de confiance."
+      }
+    },
+    "vision": {
+      "title": "Notre Vision",
+      "description": "Créer un écosystème réglementaire unifié qui garantit à tous les Africains l'accès à des produits médicaux sûrs, efficaces et de qualité assurée."
+    },
+    "mission": {
+      "title": "Notre Mission",
+      "description": "Réunir les dirigeants réglementaires pour harmoniser les normes, partager les connaissances et construire les cadres collaboratifs nécessaires à un système de santé africain résilient."
+    },
+    "themes": {
+      "title": "Thèmes Clés",
+      "theme1": "Convergence et Harmonisation Réglementaire",
+      "theme2": "Systèmes de Pharmacovigilance",
+      "theme3": "Transformation Numérique",
+      "theme4": "Développement de la Main-d'œuvre",
+      "theme5": "Préparation aux Urgences",
+      "theme6": "Fabrication Locale"
+    }
+  },
+  "speakers": {
+    "title": "Intervenants Distingués",
+    "subtitle": "Dirigeants réglementaires, décideurs et experts en santé réunis pour façonner l'avenir de l'Afrique.",
+    "callForAbstracts": {
+      "title": "Appel à Résumés et Panélistes",
+      "description": "Êtes-vous un expert réglementaire intéressé à intervenir au Forum 2026 ? Nous invitons les candidatures pour les sessions techniques.",
+      "button": "Soumettre un Résumé"
+    }
+  },
+  "program": {
+    "title": "Programme de l'Événement",
+    "subtitle": "Un programme complet de deux jours comprenant des sessions plénières, des dialogues stratégiques et la construction de consensus.",
+    "day1": "Jour 1",
+    "day2": "Jour 2",
+    "day1Label": "Jour 1 : Jeudi 29 Jan",
+    "day2Label": "Jour 2 : Vendredi 30 Jan",
+    "venueLabel": "KCC - Auditorium Principal",
+    "speakersLabel": "Intervenants",
+    "downloadPdf": "Télécharger le Programme Complet (PDF)",
+    "lastUpdated": "Dernière mise à jour : Octobre 2025"
+  },
+  "destination": {
+    "title": "Découvrez Kigali",
+    "subtitle": "La capitale du Rwanda vous accueille pour une expérience de conférence de classe mondiale",
+    "hero": {
+      "title": "Découvrez le Rwanda",
+      "subtitle": "Le Cœur du Progrès et de l'Innovation en Afrique"
+    },
+    "travelGuide": {
+      "label": "Guide de Voyage",
+      "title": "Bienvenue au Pays des Mille Collines",
+      "p1": "Kigali est largement reconnue comme l'une des villes les plus propres, les plus sûres et les plus dynamiques d'Afrique. En tant que ville hôte du Forum HNRA 2026, elle offre un mélange parfait d'infrastructures de classe mondiale et de culture rwandaise authentique.",
+      "p2": "Le Rwanda a simplifié son processus de visa, avec de nombreuses nationalités éligibles au visa à l'arrivée ou aux e-visas faciles, soutenant sa mission d'être un hub pour le dialogue continental.",
+      "visa": {
+        "title": "Info Visa",
+        "description": "Visa gratuit de 30 jours pour les citoyens de l'UA, du Commonwealth et de la Francophonie."
+      },
+      "language": {
+        "title": "Langue",
+        "description": "L'anglais, le français, le kinyarwanda et le swahili sont officiels."
+      }
+    },
+    "cards": {
+      "accommodation": {
+        "title": "Hébergement",
+        "description": "Les hôtels partenaires incluent le Radisson Blu, le Kigali Marriott et le Serena Hotel, tous offrant des tarifs spéciaux pour le forum.",
+        "link": "Réserver avec le code HNRA26"
+      },
+      "transport": {
+        "title": "Se Déplacer",
+        "description": "Des services de navette officiels relieront les hôtels partenaires au KCC. Les applications de VTC comme Move sont largement disponibles.",
+        "link": "Horaires des Transports"
+      },
+      "attractions": {
+        "title": "Attractions Locales",
+        "description": "Visitez le Mémorial du Génocide de Kigali, le Centre d'Art Inema, ou prolongez votre séjour pour un safari de trekking des gorilles.",
+        "link": "Explorer le Rwanda"
+      }
+    },
+    "venue": {
+      "label": "Le Lieu",
+      "title": "Centre de Conventions de Kigali (KCC)",
+      "description": "Un chef-d'œuvre architectural inspiré du tissage traditionnel rwandais, le KCC est un emblème de Kigali et le lieu de réunion le plus prestigieux de la région.",
+      "feature1": "Technologie audiovisuelle de pointe",
+      "feature2": "Connecté à l'Hôtel Radisson Blu",
+      "feature3": "Capacité de plus de 5 000 délégués",
+      "button": "Voir la Carte Interactive"
+    }
+  },
+  "partners": {
+    "title": "Partenaires et Sponsors",
+    "subtitle": "La collaboration est le fondement de notre écosystème réglementaire.",
+    "organizingEntity": "Entité Organisatrice",
+    "host": "Hôte",
+    "officialHostEntity": "Entité Hôte Officielle",
+    "strategicPartners": "Partenaires Stratégiques",
+    "partnerLabel": "Partenaire",
+    "partnerWithUs": {
+      "title": "Devenez Partenaire",
+      "description": "Démontrez l'engagement de votre organisation envers la résilience du système de santé africain. Nous offrons différents niveaux de partenariat pour les agences techniques, les donateurs et les institutions académiques.",
+      "benefit1": "Alignement Stratégique de Leadership",
+      "benefit2": "Opportunités de Réseautage de Haut Niveau",
+      "benefit3": "Visibilité Continentale"
+    },
+    "inquiry": {
+      "title": "Demande de Partenariat",
+      "fullName": "Nom Complet",
+      "email": "Adresse Email",
+      "organization": "Organisation",
+      "message": "Parlez-nous de votre intérêt...",
+      "submit": "Envoyer la Demande"
+    }
+  },
+  "register": {
+    "title": "Inscription au Forum",
+    "subtitle": "Rejoignez les leaders de toute l'Afrique lors de cet événement historique",
+    "steps": {
+      "personal": "Informations Personnelles",
+      "professional": "Détails Professionnels",
+      "preferences": "Préférences de l'Événement",
+      "review": "Révision et Soumission"
+    },
+    "form": {
+      "title": "Titre",
+      "firstName": "Prénom",
+      "middleName": "Deuxième Prénom (Facultatif)",
+      "lastName": "Nom de Famille",
+      "gender": "Genre",
+      "nationality": "Nationalité",
+      "email": "Adresse Email",
+      "organization": "Organisation / Institution",
+      "position": "Poste / Titre",
+      "country": "Pays de Résidence",
+      "dietary": "Restrictions Alimentaires",
+      "dietaryPlaceholder": "Veuillez préciser vos exigences alimentaires (végétarien, végan, allergies, etc.)",
+      "medical": "Conditions Médicales",
+      "medicalPlaceholder": "Veuillez énumérer toute condition médicale dont nous devrions être informés en cas d'urgence",
+      "special": "Besoins Spéciaux",
+      "specialPlaceholder": "Besoins d'accessibilité, services d'interprétation ou autres accommodations",
+      "photoConsent": "Consentement Photo",
+      "photoConsentText": "Je consens à être photographié(e) pendant la conférence. Les photos peuvent être utilisées pour les communications officielles et publications de l'AMA.",
+      "selectTitle": "Sélectionner le Titre",
+      "selectGender": "Sélectionner le Genre",
+      "selectCountry": "Sélectionner le Pays",
+      "male": "Homme",
+      "female": "Femme",
+      "other": "Autre",
+      "preferNotToSay": "Préfère ne pas dire"
+    },
+    "navigation": {
+      "previous": "Précédent",
+      "next": "Étape Suivante",
+      "submit": "Soumettre l'Inscription"
+    },
+    "review": {
+      "title": "Vérifiez Vos Informations",
+      "personalInfo": "Informations Personnelles",
+      "professionalDetails": "Détails Professionnels",
+      "eventPreferences": "Préférences de l'Événement",
+      "consent": "Consentement",
+      "photoConsentYes": "Consentement photo accordé",
+      "photoConsentNo": "Consentement photo non accordé",
+      "confirmation": "En soumettant cette inscription, vous confirmez que toutes les informations fournies sont exactes et acceptez les termes et conditions du forum."
+    },
+    "success": {
+      "title": "Inscription Soumise !",
+      "message": "Merci de vous être inscrit(e) au Forum HNRA 2026. Vous recevrez sous peu un email de confirmation avec plus de détails.",
+      "backHome": "Retour à l'Accueil"
+    },
+    "validation": {
+      "required": "Veuillez remplir tous les champs obligatoires avant de continuer."
+    }
+  },
+  "footer": {
+    "description": "Une plateforme continentale de haut niveau réunissant les Chefs des Autorités Nationales de Réglementation des Médicaments pour faire progresser l'harmonisation réglementaire en Afrique.",
+    "quickLinks": "Liens Rapides",
+    "aboutForum": "À Propos du Forum",
+    "eventProgram": "Programme de l'Événement",
+    "destinationGuide": "Guide de Destination",
+    "partnersSponsors": "Partenaires et Sponsors",
+    "contactUs": "Contactez-Nous",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Restez informé(e) des dernières nouvelles concernant le Forum 2026.",
+      "placeholder": "Votre email",
+      "button": "S'abonner"
+    },
+    "copyright": "© 2026 Agence Africaine du Médicament (AMA). Tous droits réservés.",
+    "privacyPolicy": "Politique de Confidentialité",
+    "termsOfUse": "Conditions d'Utilisation",
+    "amaWebsite": "Site Web AMA"
+  },
+  "common": {
+    "learnMore": "En Savoir Plus",
+    "viewAll": "Voir Tout",
+    "readMore": "Lire la Suite",
+    "back": "Retour",
+    "next": "Suivant",
+    "submit": "Soumettre",
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite"
+  }
+}

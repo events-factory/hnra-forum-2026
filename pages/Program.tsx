@@ -1,9 +1,11 @@
 
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 import { PROGRAM } from '../constants';
 import { Clock, MapPin, Download } from 'lucide-react';
 
 const Program: React.FC = () => {
+  const { t } = useTranslation();
   const [activeDay, setActiveDay] = useState(1);
 
   const filteredProgram = PROGRAM.filter(item => item.day === activeDay);
@@ -12,9 +14,9 @@ const Program: React.FC = () => {
     <div className="bg-slate-50 min-h-screen">
       <section className="bg-ama-green py-20 text-white text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 animate-fade-in-down">Event Program</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 animate-fade-in-down">{t('program.title')}</h1>
           <p className="text-xl text-slate-100 max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
-            A comprehensive two-day agenda featuring plenary sessions, strategic dialogues, and consensus building.
+            {t('program.subtitle')}
           </p>
         </div>
       </section>
@@ -31,7 +33,7 @@ const Program: React.FC = () => {
                 : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:border-ama-maroon'
               }`}
             >
-              Day 1: Thursday, 29 Jan
+              {t('program.day1Label')}
             </button>
             <button
               onClick={() => setActiveDay(2)}
@@ -41,7 +43,7 @@ const Program: React.FC = () => {
                 : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:border-ama-maroon'
               }`}
             >
-              Day 2: Friday, 30 Jan
+              {t('program.day2Label')}
             </button>
           </div>
 
@@ -60,7 +62,7 @@ const Program: React.FC = () => {
                     </div>
                     <div className="flex items-center gap-2 text-slate-500 text-sm font-medium hover-scale">
                       <MapPin size={16} />
-                      <span>KCC - Main Auditorium</span>
+                      <span>{t('program.venueLabel')}</span>
                     </div>
                   </div>
 
@@ -69,7 +71,7 @@ const Program: React.FC = () => {
 
                   {item.speakers && (
                     <div className="flex flex-wrap gap-2">
-                      <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block w-full mb-2">Speakers:</span>
+                      <span className="text-xs font-bold text-slate-400 uppercase tracking-wider block w-full mb-2">{t('program.speakersLabel')}:</span>
                       {item.speakers.map((s, i) => (
                         <span key={i} className="bg-slate-100 text-slate-700 px-3 py-1 rounded-full text-xs font-semibold hover:bg-ama-maroon hover:text-white transition-all cursor-pointer">
                           {s}
@@ -84,9 +86,9 @@ const Program: React.FC = () => {
 
           <div className="mt-20 text-center animate-fade-in">
             <button className="inline-flex items-center gap-2 bg-slate-900 text-white px-8 py-4 rounded-full font-bold hover:bg-slate-800 hover-lift hover-glow transition-all shadow-lg group">
-              <Download size={20} className="group-hover:scale-110 group-hover:-rotate-12 transition-transform" /> Download Full Program (PDF)
+              <Download size={20} className="group-hover:scale-110 group-hover:-rotate-12 transition-transform" /> {t('program.downloadPdf')}
             </button>
-            <p className="text-slate-500 mt-4 text-sm">Last updated: October 2025</p>
+            <p className="text-slate-500 mt-4 text-sm">{t('program.lastUpdated')}</p>
           </div>
         </div>
       </section>

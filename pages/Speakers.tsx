@@ -1,16 +1,19 @@
 
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { SPEAKERS } from '../constants';
 import { Linkedin, Twitter } from 'lucide-react';
 
 const Speakers: React.FC = () => {
+  const { t } = useTranslation();
+
   return (
     <div className="bg-slate-50 min-h-screen">
       <section className="bg-slate-900 py-20 text-white text-center">
         <div className="container mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 animate-fade-in-down">Distinguished Speakers</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-6 animate-fade-in-down">{t('speakers.title')}</h1>
           <p className="text-xl text-slate-400 max-w-3xl mx-auto animate-fade-in-up animate-delay-200">
-            Regulatory leaders, policy makers, and healthcare experts coming together to shape Africa's future.
+            {t('speakers.subtitle')}
           </p>
         </div>
       </section>
@@ -50,15 +53,15 @@ const Speakers: React.FC = () => {
           </div>
         </div>
       </section>
-      
+
       <section className="py-20 bg-ama-maroon text-white">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6 animate-fade-in">Call for Abstracts & Panelists</h2>
+          <h2 className="text-3xl font-bold mb-6 animate-fade-in">{t('speakers.callForAbstracts.title')}</h2>
           <p className="text-slate-200 mb-10 max-w-2xl mx-auto animate-fade-in-up animate-delay-100">
-            Are you a regulatory expert interested in speaking at the 2026 Forum? We invite applications for technical sessions.
+            {t('speakers.callForAbstracts.description')}
           </p>
           <button className="bg-ama-gold text-ama-maroon px-8 py-3 rounded-full font-bold hover:scale-105 hover-glow transition-all shadow-lg animate-fade-in-up animate-delay-200">
-            Submit Abstract
+            {t('speakers.callForAbstracts.button')}
           </button>
         </div>
       </section>

@@ -1,0 +1,351 @@
+{
+  "event": {
+    "name": "First AMA Heads of NRAs and RECs Coordinators Forum",
+    "theme": "Building the African Medicines Agency Together"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "speakers": "Speakers",
+    "program": "Program",
+    "destination": "Destination",
+    "partners": "Partners",
+    "register": "Register Now"
+  },
+  "home": {
+    "subtitle": "First Forum",
+    "tagline": "Building the African Medicines Agency Together",
+    "hero": {
+      "badge": "First Forum 2026",
+      "description": "Establishing a shared vision and practical working relationship between AMA, Heads of NRAs, and RECs Coordinators.",
+      "date": "Date",
+      "venue": "Venue"
+    },
+    "countdown": {
+      "days": "Days",
+      "hours": "Hours",
+      "mins": "Mins",
+      "secs": "Secs"
+    },
+    "stats": {
+      "memberStates": "State Parties",
+      "policyMakers": "Expected Participants",
+      "partners": "Strategic Partners",
+      "annualValue": "2",
+      "flagshipEvent": "Days of Dialogue"
+    },
+    "introduction": {
+      "label": "Overall Goal",
+      "title": "Building the African Medicines Agency Together",
+      "description": "To establish a shared vision and practical working relationship between AMA, Heads of NRAs and RECs coordinators around AMA's 2026 priorities – continental quality and safety monitoring, regulatory collaboration, digital systems, capacity building and support to local manufacturing – and to agree concrete deliverables for 2026.",
+      "point1": "Continental system for medical product vigilance",
+      "point2": "Regulatory collaboration and reliance",
+      "point3": "AMA Technical Committees and advisory bodies",
+      "point4": "Support to local manufacturing via AMA SME Office",
+      "readMore": "Read full concept note",
+      "quote": "AMA is entering a decisive phase of operationalisation.",
+      "quoteAuthor": "African Medicines Agency"
+    },
+    "whyAttend": {
+      "title": "AMA 2026 Priorities",
+      "description": "For 2026, AMA's work with NRAs will be organised around practical priorities that strengthen Africa's regulatory ecosystem.",
+      "card1": {
+        "title": "Quality & Safety Monitoring",
+        "description": "Establishing continental systems for medical product vigilance and continuous monitoring of medical product quality."
+      },
+      "card2": {
+        "title": "Clinical Trials Coordination",
+        "description": "Establishing a system for coordination of clinical trials oversight and harmonisation in Africa."
+      },
+      "card3": {
+        "title": "Local Manufacturing Support",
+        "description": "Establishing an AMA SME and Innovations Office to support local and regional manufacturing of medical products."
+      }
+    },
+    "speakers": {
+      "label": "Distinguished Guests",
+      "title": "Featured Speakers"
+    },
+    "cta": {
+      "title": "Join the First AMA Heads of NRAs and RECs Forum",
+      "description": "Participation is open to Heads of NRAs from State Parties and non-State Parties, RECs Coordinators, and key technical and financing partners aligned with AMA's agenda.",
+      "button": "Become a Partner"
+    },
+    "sections": {
+      "about": {
+        "title": "A New Era of Regulatory Cooperation",
+        "description": "The Heads of National Regulatory Authorities (HNRA) Forum 2026 is a landmark gathering designed to strengthen regulatory networks across Africa. This inaugural event will bring together leaders from every corner of the continent.",
+        "highlight1": {
+          "title": "Continental Coverage",
+          "description": "Regulators from all 55 AU member states"
+        },
+        "highlight2": {
+          "title": "Expert Panels",
+          "description": "Sessions led by global health leaders"
+        },
+        "highlight3": {
+          "title": "Strategic Outcomes",
+          "description": "Actionable frameworks for harmonisation"
+        },
+        "learnMore": "Learn More About the Forum"
+      },
+      "speakers": {
+        "title": "Distinguished Speakers",
+        "description": "Hear from the leaders shaping the future of health regulation in Africa",
+        "viewAll": "View All Speakers"
+      },
+      "cta": {
+        "title": "Be Part of History",
+        "description": "The inaugural HNRA Forum represents a pivotal moment for African health regulation. Don't miss this opportunity to connect with peers, share knowledge, and shape the future of medicines regulation on the continent.",
+        "button": "Secure Your Spot Today"
+      }
+    }
+  },
+  "about": {
+    "title": "About the Forum",
+    "subtitle": "Building the African Medicines Agency Together",
+    "headerSubtitle": "A two-day meeting focused on establishing a practical, trusted working relationship between AMA and Heads of NRAs.",
+    "executiveSummary": {
+      "title": "Background & Context",
+      "p1": "The AMA Treaty was adopted by the AU Assembly on 11 February 2019 and entered into force on 5 November 2021 following the deposit of the 15th instrument of ratification. This marks the realisation of the AU's vision of a networked African medical products regulatory system.",
+      "p2": "The architecture is built around National Medicines Regulatory Authorities (NMRAs/NRAs), Regional Economic Communities (RECs) and their Medicines Regulatory Harmonization (MRH) programmes, and AMA as the continental apex body providing coordination, technical guidance, convergence tools and reliance platforms.",
+      "p3": "Currently, thirty-one (31) AU Member States are Party to the AMA Treaty. AMA is entering a decisive phase of operationalisation, and this Forum convenes Heads of NRAs and RECs Coordinators to establish practical working relationships for 2026."
+    },
+    "background": {
+      "title": "Overall Goal",
+      "p1": "To establish a shared vision and practical working relationship between AMA, Heads of NRAs and RECs coordinators around AMA's 2026 priorities – continental quality and safety monitoring, regulatory collaboration, digital systems, capacity building and support to local manufacturing.",
+      "p2": "Each actor is expected to play a complementary role based on a clear division of labour, ensuring optimal use of resources, minimal duplication and evidence-based decision-making."
+    },
+    "objectives": {
+      "title": "Forum Objectives",
+      "obj1": "Foster shared understanding on coordination mechanisms",
+      "obj2": "Provide updates on AMA operationalisation",
+      "obj3": "Deliberate on AMA Technical Committees",
+      "obj4": "Co-create AMA Capacity-Building Strategy",
+      "obj5": "Discuss AMA SME & Innovation Office",
+      "obj6": "Align on priority activities for 2026"
+    },
+    "eventDetails": {
+      "title": "Event Details",
+      "dates": "Dates",
+      "venue": "Venue",
+      "frequency": "Format",
+      "frequencyValue": "Two-day Forum + AMA HQ Tour"
+    },
+    "impact": {
+      "title": "Expected Results & Outputs",
+      "subtitle": "Concrete deliverables that will shape AMA's work with NRAs and RECs for 2026 and beyond.",
+      "card1": {
+        "title": "AMA Systems",
+        "description": "Finalized systems for Medical Product Vigilance, Clinical Trials, and Post-market drug quality testing."
+      },
+      "card2": {
+        "title": "Strategic Framework",
+        "description": "Inputs into AMA multi-year strategic plan and AMA/NRAs/RECs Work Plan for 2026."
+      },
+      "card3": {
+        "title": "Capacity Building",
+        "description": "Concept Note and ToR for the AMA Academy and finalized AMA SME & Innovation Office concept."
+      }
+    },
+    "vision": {
+      "title": "Our Vision",
+      "description": "To create a unified regulatory ecosystem that ensures all Africans have access to safe, effective, and quality-assured medical products."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "Convene regulatory leaders to harmonise standards, share knowledge, and build the collaborative frameworks necessary for a resilient African health system."
+    },
+    "themes": {
+      "title": "2026 Priorities",
+      "theme1": "Medical Product Vigilance System",
+      "theme2": "Quality Monitoring System",
+      "theme3": "Clinical Trials Coordination",
+      "theme4": "AMA Technical Committees",
+      "theme5": "Digital Regulatory Systems",
+      "theme6": "Local Manufacturing Support"
+    }
+  },
+  "speakers": {
+    "title": "Forum Participants",
+    "subtitle": "Heads of NRAs, RECs Coordinators, AMA leadership, and key technical partners coming together to build AMA.",
+    "callForAbstracts": {
+      "title": "Expected Participants",
+      "description": "AMA Governing Board, AMA Secretariat, Heads of NRAs from AU Member States, RECs MRH/Regulatory Coordinators (EAC, ECOWAS/UEMOA, SADC, IGAD), AU Commission, Africa CDC, AUDA-NEPAD, and AfCFTA representatives.",
+      "button": "Contact Us"
+    }
+  },
+  "program": {
+    "title": "Event Program",
+    "subtitle": "Two days combining strategic dialogue, technical discussions and space for NRAs to express expectations and needs. Includes a tour of the AMA Headquarters building in Kigali.",
+    "day1": "Day 1",
+    "day2": "Day 2",
+    "day1Label": "Day 1: Thursday, 29 Jan",
+    "day2Label": "Day 2: Friday, 30 Jan",
+    "venueLabel": "Kigali, Rwanda",
+    "speakersLabel": "Speakers",
+    "downloadPdf": "Download Full Program (PDF)",
+    "lastUpdated": "Last updated: January 2026"
+  },
+  "destination": {
+    "title": "Discover Kigali",
+    "subtitle": "Rwanda's capital city welcomes you to a world-class conference experience",
+    "hero": {
+      "title": "Discover Rwanda",
+      "subtitle": "The Heart of Africa's Progress & Innovation"
+    },
+    "travelGuide": {
+      "label": "Travel Guide",
+      "title": "Welcome to the Land of a Thousand Hills",
+      "p1": "Kigali is widely known as one of Africa's cleanest, safest, and most dynamic cities. As the host city for the HNRA Forum 2026, it offers a perfect blend of world-class infrastructure and authentic Rwandan culture.",
+      "p2": "Rwanda has simplified its visa process, with many nationalities eligible for visa-on-arrival or easy e-visas, supporting its mission to be a hub for continental dialogue.",
+      "visa": {
+        "title": "Visa Info",
+        "description": "Free 30-day visa for AU, Commonwealth & Francophonie citizens."
+      },
+      "language": {
+        "title": "Language",
+        "description": "English, French, Kinyarwanda, and Swahili are official."
+      }
+    },
+    "cards": {
+      "accommodation": {
+        "title": "Accommodation",
+        "description": "Partner hotels include the Radisson Blu, Kigali Marriott, and Serena Hotel, all offering special forum rates.",
+        "link": "Book with code HNRA26"
+      },
+      "transport": {
+        "title": "Getting Around",
+        "description": "Official shuttle services will connect partner hotels to the KCC. Ride-hailing apps like Move are widely available.",
+        "link": "Transport Schedule"
+      },
+      "attractions": {
+        "title": "Local Attractions",
+        "description": "Visit the Kigali Genocide Memorial, Inema Arts Center, or extend your stay for a Gorilla Trekking safari.",
+        "link": "Explore Rwanda"
+      }
+    },
+    "venue": {
+      "label": "The Venue",
+      "title": "Kigali Convention Centre (KCC)",
+      "description": "An architectural masterpiece inspired by traditional Rwandan weaving, the KCC is a landmark of Kigali and the most prestigious meeting venue in the region.",
+      "feature1": "State-of-the-art audiovisual tech",
+      "feature2": "Connected to Radisson Blu Hotel",
+      "feature3": "5,000+ delegate capacity",
+      "button": "View Interactive Map"
+    }
+  },
+  "partners": {
+    "title": "Partners & Sponsors",
+    "subtitle": "Collaboration is the foundation of our regulatory ecosystem.",
+    "organizingEntity": "Organizing Entity",
+    "host": "Host",
+    "officialHostEntity": "Official Host Entity",
+    "strategicPartners": "Strategic Partners",
+    "partnerLabel": "Partner",
+    "partnerWithUs": {
+      "title": "Partner With Us",
+      "description": "Showcase your organization's commitment to Africa's health system resilience. We offer various partnership tiers for technical agencies, donors, and academic institutions.",
+      "benefit1": "Strategic Leadership Alignment",
+      "benefit2": "High-level Networking Opportunities",
+      "benefit3": "Continental Visibility"
+    },
+    "inquiry": {
+      "title": "Sponsorship Inquiry",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "organization": "Organization",
+      "message": "Tell us about your interest...",
+      "submit": "Send Inquiry"
+    }
+  },
+  "register": {
+    "title": "Register for the Forum",
+    "subtitle": "Join leaders from across Africa at this landmark event",
+    "steps": {
+      "personal": "Personal Information",
+      "professional": "Professional Details",
+      "preferences": "Event Preferences",
+      "review": "Review & Submit"
+    },
+    "form": {
+      "title": "Title",
+      "firstName": "First Name",
+      "middleName": "Middle Name (Optional)",
+      "lastName": "Last Name",
+      "gender": "Gender",
+      "nationality": "Nationality",
+      "email": "Email Address",
+      "organization": "Organization / Institution",
+      "position": "Position / Title",
+      "country": "Country of Residence",
+      "dietary": "Dietary Restrictions",
+      "dietaryPlaceholder": "Please specify any dietary requirements (vegetarian, vegan, allergies, etc.)",
+      "medical": "Medical Conditions",
+      "medicalPlaceholder": "Please list any medical conditions we should be aware of for emergency purposes",
+      "special": "Special Requirements",
+      "specialPlaceholder": "Accessibility needs, interpretation services, or other accommodations",
+      "photoConsent": "Photo Consent",
+      "photoConsentText": "I consent to being photographed during the conference. Photos may be used for official AMA communications and publications.",
+      "selectTitle": "Select Title",
+      "selectGender": "Select Gender",
+      "selectCountry": "Select Country",
+      "male": "Male",
+      "female": "Female",
+      "other": "Other",
+      "preferNotToSay": "Prefer not to say"
+    },
+    "navigation": {
+      "previous": "Previous",
+      "next": "Next Step",
+      "submit": "Submit Registration"
+    },
+    "review": {
+      "title": "Review Your Information",
+      "personalInfo": "Personal Information",
+      "professionalDetails": "Professional Details",
+      "eventPreferences": "Event Preferences",
+      "consent": "Consent",
+      "photoConsentYes": "Photo consent given",
+      "photoConsentNo": "Photo consent not given",
+      "confirmation": "By submitting this registration, you confirm that all information provided is accurate and agree to the forum's terms and conditions."
+    },
+    "success": {
+      "title": "Registration Submitted!",
+      "message": "Thank you for registering for the HNRA Forum 2026. You will receive a confirmation email shortly with further details.",
+      "backHome": "Back to Home"
+    },
+    "validation": {
+      "required": "Please fill in all required fields before continuing."
+    }
+  },
+  "footer": {
+    "description": "The First AMA Heads of NRAs and RECs Coordinators Forum - Building the African Medicines Agency Together. Kigali, Rwanda, 29-30 January 2026.",
+    "quickLinks": "Quick Links",
+    "aboutForum": "About the Forum",
+    "eventProgram": "Event Program",
+    "destinationGuide": "Destination Guide",
+    "partnersSponsors": "Partners & Sponsors",
+    "contactUs": "Contact Us",
+    "newsletter": {
+      "title": "Newsletter",
+      "description": "Stay updated with the latest news regarding the 2026 Forum.",
+      "placeholder": "Your email",
+      "button": "Join"
+    },
+    "copyright": "© 2026 African Medicines Agency (AMA). All rights reserved.",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "amaWebsite": "AMA Website"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit",
+    "loading": "Loading...",
+    "error": "An error occurred"
+  }
+}

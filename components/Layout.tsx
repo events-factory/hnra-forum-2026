@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 import {
   Menu,
   X,
@@ -17,14 +18,19 @@ import { EVENT_INFO } from '../constants';
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
+  const { t, i18n } = useTranslation();
+
+  const changeLanguage = (lng: string) => {
+    i18n.changeLanguage(lng);
+  };
 
   const navItems = [
-    { name: 'Home', path: '/', end: true },
-    { name: 'About', path: '/about', end: false },
-    { name: 'Speakers', path: '/speakers', end: false },
-    { name: 'Program', path: '/program', end: false },
-    { name: 'Destination', path: '/destination', end: false },
-    { name: 'Partners', path: '/partners', end: false },
+    { name: t('nav.home'), path: '/', end: true },
+    { name: t('nav.about'), path: '/about', end: false },
+    { name: t('nav.speakers'), path: '/speakers', end: false },
+    { name: t('nav.program'), path: '/program', end: false },
+    { name: t('nav.destination'), path: '/destination', end: false },
+    { name: t('nav.partners'), path: '/partners', end: false },
   ];
 
   const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
@@ -42,14 +48,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             <span className="flex items-center gap-1 font-medium">
               <MapPin size={14} /> {EVENT_INFO.location}
             </span>
-          </div>
-          <div className="flex gap-4">
-            <Link
-              to="/register"
-              className="hover:text-ama-gold transition-colors font-bold underline decoration-ama-gold/30"
-            >
-              Register Now
-            </Link>
           </div>
         </div>
       </div>
@@ -89,12 +87,32 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                   {item.name}
                 </NavLink>
               ))}
-              <Link
-                to="/register"
-                className="bg-ama-maroon text-white px-6 py-2.5 rounded-full text-sm font-bold hover:bg-opacity-90 hover-lift hover-glow transition-all shadow-lg hover:shadow-ama-maroon/20"
-              >
-                Register
-              </Link>
+
+              {/* Language Switcher */}
+              <div className="flex items-center gap-1 border-l border-slate-200 pl-6">
+                <Globe size={16} className="text-slate-400" />
+                <button
+                  onClick={() => changeLanguage('en')}
+                  className={`px-2 py-1 text-sm font-bold rounded transition-all ${
+                    i18n.language === 'en'
+                      ? 'text-ama-maroon bg-ama-maroon/10'
+                      : 'text-slate-500 hover:text-ama-maroon'
+                  }`}
+                >
+                  EN
+                </button>
+                <span className="text-slate-300">|</span>
+                <button
+                  onClick={() => changeLanguage('fr')}
+                  className={`px-2 py-1 text-sm font-bold rounded transition-all ${
+                    i18n.language === 'fr'
+                      ? 'text-ama-maroon bg-ama-maroon/10'
+                      : 'text-slate-500 hover:text-ama-maroon'
+                  }`}
+                >
+                  FR
+                </button>
+              </div>
             </nav>
 
             {/* Mobile Menu Toggle */}
@@ -135,13 +153,38 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
               </NavLink>
             ))}
             <hr className="my-4 border-slate-100" />
-            <Link
+            {/* <Link
               to="/register"
               className="bg-ama-maroon text-white text-center py-5 rounded-2xl font-bold shadow-2xl mt-4 text-xl"
               onClick={closeMenu}
             >
-              Register Now
-            </Link>
+              {t('nav.register')}
+            </Link> */}
+
+            {/* Mobile Language Switcher */}
+            <div className="flex items-center justify-center gap-4 mt-6">
+              <Globe size={20} className="text-slate-400" />
+              <button
+                onClick={() => changeLanguage('en')}
+                className={`px-4 py-2 text-lg font-bold rounded-xl transition-all ${
+                  i18n.language === 'en'
+                    ? 'text-white bg-ama-maroon'
+                    : 'text-slate-500 bg-slate-100 hover:bg-slate-200'
+                }`}
+              >
+                English
+              </button>
+              <button
+                onClick={() => changeLanguage('fr')}
+                className={`px-4 py-2 text-lg font-bold rounded-xl transition-all ${
+                  i18n.language === 'fr'
+                    ? 'text-white bg-ama-maroon'
+                    : 'text-slate-500 bg-slate-100 hover:bg-slate-200'
+                }`}
+              >
+                Français
+              </button>
+            </div>
           </div>
         </div>
       </header>
@@ -164,9 +207,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 </div>
               </div>
               <p className="text-sm leading-relaxed mb-6 text-slate-400">
-                A high-level continental platform convening Heads of National
-                Medicines Regulatory Authorities to advance regulatory
-                harmonisation in Africa.
+                {t('footer.description')}
               </p>
               <div className="flex gap-4">
                 <a
@@ -202,14 +243,14 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             </div>
 
             <div>
-              <h4 className="text-white font-bold mb-6 text-lg">Quick Links</h4>
+              <h4 className="text-white font-bold mb-6 text-lg">{t('footer.quickLinks')}</h4>
               <ul className="space-y-4 text-sm">
                 <li>
                   <Link
                     to="/"
                     className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
                   >
-                    Home
+                    {t('nav.home')}
                   </Link>
                 </li>
                 <li>
@@ -217,7 +258,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     to="/about"
                     className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
                   >
-                    About the Forum
+                    {t('footer.aboutForum')}
                   </Link>
                 </li>
                 <li>
@@ -225,7 +266,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     to="/speakers"
                     className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
                   >
-                    Speakers
+                    {t('nav.speakers')}
                   </Link>
                 </li>
                 <li>
@@ -233,7 +274,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     to="/program"
                     className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
                   >
-                    Event Program
+                    {t('footer.eventProgram')}
                   </Link>
                 </li>
                 <li>
@@ -241,7 +282,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     to="/destination"
                     className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
                   >
-                    Destination Guide
+                    {t('footer.destinationGuide')}
                   </Link>
                 </li>
                 <li>
@@ -249,14 +290,14 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     to="/partners"
                     className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
                   >
-                    Partners & Sponsors
+                    {t('footer.partnersSponsors')}
                   </Link>
                 </li>
               </ul>
             </div>
 
             <div>
-              <h4 className="text-white font-bold mb-6 text-lg">Contact Us</h4>
+              <h4 className="text-white font-bold mb-6 text-lg">{t('footer.contactUs')}</h4>
               <ul className="space-y-4 text-sm">
                 <li className="flex gap-3">
                   <MapPin size={18} className="text-ama-maroon shrink-0" />
@@ -288,18 +329,18 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             </div>
 
             <div>
-              <h4 className="text-white font-bold mb-6 text-lg">Newsletter</h4>
+              <h4 className="text-white font-bold mb-6 text-lg">{t('footer.newsletter.title')}</h4>
               <p className="text-sm mb-4 text-slate-400">
-                Stay updated with the latest news regarding the 2026 Forum.
+                {t('footer.newsletter.description')}
               </p>
               <form className="flex" onSubmit={(e) => e.preventDefault()}>
                 <input
                   type="email"
-                  placeholder="Your email"
+                  placeholder={t('footer.newsletter.placeholder')}
                   className="bg-slate-800 border-none rounded-l-xl px-4 py-3 text-sm w-full focus:ring-2 focus:ring-ama-maroon outline-none text-white transition-all"
                 />
                 <button className="bg-ama-maroon text-white px-5 py-3 rounded-r-xl text-sm font-bold hover:bg-opacity-90 hover-scale transition-all">
-                  Join
+                  {t('footer.newsletter.button')}
                 </button>
               </form>
             </div>
@@ -307,22 +348,32 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
 
           <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-medium text-slate-500">
             <p>
-              &copy; 2026 African Medicines Agency (AMA). All rights reserved.
+              {t('footer.copyright')}
             </p>
             <div className="flex gap-6">
-              <Link to="/" className="hover:text-white transition-colors">
-                Privacy Policy
-              </Link>
-              <Link to="/" className="hover:text-white transition-colors">
-                Terms of Service
-              </Link>
+              <a
+                href="https://smartevent.rw/privacy-policy"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                {t('footer.privacyPolicy')}
+              </a>
+              <a
+                href="https://smartevent.rw/terms-of-use"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-white transition-colors"
+              >
+                {t('footer.termsOfUse')}
+              </a>
               <a
                 href="https://au-ama.africa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-white transition-colors flex items-center gap-1"
               >
-                AMA Website <ExternalLink size={10} />
+                {t('footer.amaWebsite')} <ExternalLink size={10} />
               </a>
             </div>
           </div>
