@@ -11,8 +11,8 @@ import {
   Phone,
   Globe,
 } from 'lucide-react';
-import logoColor from '../HoNRAF logo Landscape FC(1).png';
-import logoWhite from '../HoNRAF logo Landscape White.png';
+import logoColor from '../AMA-english-logo.png';
+import logoWhite from '../AMA-white-logo.png';
 import { EVENT_INFO } from '../constants';
 
 const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
