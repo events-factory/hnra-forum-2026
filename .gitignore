@@ -23,3 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 config.bat
+
+# --- env files (ensure-env-gitignored.sh) ---
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
