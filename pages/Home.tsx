@@ -20,6 +20,12 @@ interface TimeLeft {
   seconds: number;
 }
 
+// Initials shown when a speaker has no photo yet, e.g. "H.E. Dr Jean Kaseya" -> "JK".
+const initials = (name: string) => {
+  const words = name.split(' ').filter(w => !/^(H\.E\.|Dr|Prof\.|Mr|Mrs|Hon\.|Amb\.)$/.test(w));
+  return (words[0][0] + (words.length > 1 ? words[words.length - 1][0] : '')).toUpperCase();
+};
+
 const Home: React.FC = () => {
   const { t } = useTranslation();
   const [timeLeft, setTimeLeft] = useState<TimeLeft>({
@@ -30,7 +36,7 @@ const Home: React.FC = () => {
   });
 
   useEffect(() => {
-    const targetDate = new Date('2026-01-29T09:00:00').getTime();
+    const targetDate = new Date('2026-10-25T08:00:00').getTime();
 
     const calculateTimeLeft = () => {
       const now = new Date().getTime();
@@ -57,7 +63,7 @@ const Home: React.FC = () => {
   return (
     <div className="animate-fade-in">
       {/* Hero Section */}
-      <section className="relative h-[90vh] flex items-center overflow-hidden">
+      <section className="relative min-h-[90vh] flex items-center overflow-hidden py-20 md:py-24">
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img
@@ -65,7 +71,13 @@ const Home: React.FC = () => {
             alt="Kigali Convention Centre"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-ama-maroon/95 via-ama-maroon/75 to-transparent"></div>
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                'linear-gradient(to right, rgba(128, 21, 43, 0.95) 0%, rgba(128, 21, 43, 0.8) 45%, rgba(128, 21, 43, 0.2) 100%)',
+            }}
+          ></div>
         </div>
 
         <div className="container mx-auto px-4 relative z-10">
@@ -152,7 +164,7 @@ const Home: React.FC = () => {
             </div>
             <div className="animate-fade-in-up animate-delay-200 hover-lift cursor-pointer p-4 rounded-xl">
               <h3 className="text-4xl font-extrabold text-ama-maroon mb-1">
-                80-100
+                400-500
               </h3>
               <p className="text-slate-500 font-medium">{t('home.stats.policyMakers')}</p>
             </div>
@@ -288,12 +300,6 @@ const Home: React.FC = () => {
                 {t('home.speakers.title')}
               </h3>
             </div>
-            <Link
-              to="/speakers"
-              className="bg-slate-100 text-slate-900 px-6 py-3 rounded-full font-bold hover:bg-slate-200 transition-colors flex items-center gap-2"
-            >
-              {t('home.sections.speakers.viewAll')} <ArrowRight size={18} />
-            </Link>
           </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -303,11 +309,17 @@ const Home: React.FC = () => {
                 className={`group animate-fade-in-up animate-delay-${(idx + 1) * 100}`}
               >
                 <div className="relative overflow-hidden rounded-2xl mb-4 hover-lift cursor-pointer">
+                  {speaker.image ? (
                   <img
                     src={speaker.image}
                     alt={speaker.name}
                     className="w-full h-[300px] object-cover group-hover:scale-110 transition-transform duration-500"
                   />
+                  ) : (
+                    <div className="w-full h-[300px] object-cover group-hover:scale-110 transition-transform duration-500 bg-ama-maroon/10 flex items-center justify-center text-5xl font-extrabold text-ama-maroon">
+                      {initials(speaker.name)}
+                    </div>
+                  )}
                   <div className="absolute inset-0 bg-gradient-to-t from-slate-900/60 to-transparent"></div>
                 </div>
                 <h4 className="text-xl font-bold text-slate-900 group-hover:text-ama-maroon transition-colors">
