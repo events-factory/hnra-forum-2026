@@ -4,6 +4,12 @@ import { useTranslation } from 'react-i18next';
 import { SPEAKERS } from '../constants';
 import { Linkedin, Twitter } from 'lucide-react';
 
+// Initials shown when a speaker has no photo yet, e.g. "H.E. Dr Jean Kaseya" -> "JK".
+const initials = (name: string) => {
+  const words = name.split(' ').filter(w => !/^(H\.E\.|Dr|Prof\.|Mr|Mrs|Hon\.|Amb\.)$/.test(w));
+  return (words[0][0] + (words.length > 1 ? words[words.length - 1][0] : '')).toUpperCase();
+};
+
 const Speakers: React.FC = () => {
   const { t } = useTranslation();
 
@@ -24,11 +30,17 @@ const Speakers: React.FC = () => {
             {SPEAKERS.map((speaker, idx) => (
               <div key={speaker.id} className={`bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-xl hover-lift transition-all border border-slate-100 group animate-fade-in-up animate-delay-${Math.min((idx + 1) * 100, 600)}`}>
                 <div className="relative h-80 overflow-hidden">
+                  {speaker.image ? (
                   <img
                     src={speaker.image}
                     alt={speaker.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
+                  ) : (
+                    <div className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700 bg-ama-maroon/10 flex items-center justify-center text-5xl font-extrabold text-ama-maroon">
+                      {initials(speaker.name)}
+                    </div>
+                  )}
                   <div className="absolute top-4 right-4 flex flex-col gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <button className="bg-white/90 backdrop-blur-sm p-2 rounded-lg text-ama-maroon hover:bg-ama-maroon hover:text-white hover-scale transition-all">
                       <Linkedin size={18} />

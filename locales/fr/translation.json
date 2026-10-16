@@ -1,7 +1,7 @@
 {
   "event": {
-    "name": "Premier Forum AMA des Chefs des ANR et Coordinateurs des CER",
-    "theme": "Construire l'Agence Africaine du Médicament Ensemble"
+    "name": "Semaine inaugurale de l'Agence Africaine du Médicament (1re Semaine de l'AMA)",
+    "theme": "Bâtir ensemble l'avenir réglementaire de l'Afrique — De la force nationale à l'impact continental"
   },
   "nav": {
     "home": "Accueil",
@@ -13,11 +13,11 @@
     "register": "S'inscrire"
   },
   "home": {
-    "subtitle": "Premier Forum",
-    "tagline": "Construire l'Agence Africaine du Médicament Ensemble",
+    "subtitle": "1re Semaine de l'AMA",
+    "tagline": "Bâtir ensemble l'avenir réglementaire de l'Afrique — De la force nationale à l'impact continental",
     "hero": {
-      "badge": "Premier Forum 2026",
-      "description": "Établir une vision partagée et une relation de travail pratique entre l'AMA, les Chefs des ANR et les Coordinateurs des CER.",
+      "badge": "1re Semaine de l'AMA 2026",
+      "description": "Six jours et onze réunions à Kigali pour lancer le programme de travail opérationnel de l'Agence Africaine du Médicament avec les ANR, les CER, les institutions de l'UA, l'OMS, les partenaires et l'industrie.",
       "date": "Date",
       "venue": "Lieu"
     },
@@ -31,35 +31,35 @@
       "memberStates": "États Parties",
       "policyMakers": "Participants Attendus",
       "partners": "Partenaires Stratégiques",
-      "annualValue": "2",
-      "flagshipEvent": "Jours de Dialogue"
+      "annualValue": "6",
+      "flagshipEvent": "Jours, 11 réunions"
     },
     "introduction": {
-      "label": "Objectif Global",
-      "title": "Construire l'Agence Africaine du Médicament Ensemble",
-      "description": "Établir une vision partagée et une relation de travail pratique entre l'AMA, les Chefs des ANR et les Coordinateurs des CER autour des priorités 2026 de l'AMA – surveillance de la qualité et de la sécurité, collaboration réglementaire, systèmes numériques, renforcement des capacités et soutien à la fabrication locale.",
-      "point1": "Système continental de vigilance des produits médicaux",
-      "point2": "Collaboration et confiance réglementaires",
-      "point3": "Comités techniques et consultatifs de l'AMA",
-      "point4": "Soutien à la fabrication locale via le Bureau PME de l'AMA",
+      "label": "Objectif général",
+      "title": "Bâtir ensemble l'avenir réglementaire de l'Afrique",
+      "description": "Lancer le programme de travail opérationnel de l'Agence Africaine du Médicament en réunissant ses structures techniques, afin de faire progresser l'harmonisation réglementaire continentale, renforcer la coopération entre les Autorités Nationales de Réglementation, soutenir la production locale et l'innovation, améliorer la préparation aux urgences et faire de la Semaine de l'AMA une plateforme continentale de coopération réglementaire.",
+      "point1": "Inauguration des Comités techniques de l'AMA et adoption de leurs plans de travail",
+      "point2": "Lancement du Pôle de renforcement des capacités de l'AMA et du Pôle d'innovation réglementaire et de préparation à la production",
+      "point3": "Un canal structuré de dialogue entre régulateurs et industrie",
+      "point4": "Réunion annuelle des Chefs des ANR avec l'OMS : la Conférence des régulateurs africains du médicament",
       "readMore": "Lire la note conceptuelle complète",
-      "quote": "L'AMA entre dans une phase décisive d'opérationnalisation.",
-      "quoteAuthor": "Agence Africaine du Médicament"
+      "quote": "Des autorités nationales de réglementation solides sont le fondement. L'action continentale coordonnée est le multiplicateur.",
+      "quoteAuthor": "Note conceptuelle de la 1re Semaine de l'AMA"
     },
     "whyAttend": {
-      "title": "Pourquoi Participer au Forum ?",
-      "description": "Rejoignez les chefs des ANR, les représentants de l'UA et les partenaires mondiaux pour façonner l'avenir de la réglementation des médicaments en Afrique.",
+      "title": "Temps forts de la Semaine",
+      "description": "La Semaine réunit onze rencontres, chacune avec un public et un résultat qui lui sont propres.",
       "card1": {
-        "title": "Leadership Stratégique",
-        "description": "Participez à un dialogue politique de haut niveau avec les dirigeants réglementaires continentaux et les décideurs."
+        "title": "Journée de la production et de l'innovation",
+        "description": "Dimanche 25 octobre : industrie, partenariats de développement de produits et régulateurs sur la production, l'accès au marché, la grille tarifaire de l'AMA et les achats groupés."
       },
       "card2": {
-        "title": "Alignement Continental",
-        "description": "Alignez les priorités nationales avec le mandat continental de l'Agence Africaine du Médicament."
+        "title": "Ouverture officielle et lancement des Pôles de l'AMA",
+        "description": "Mardi 27 octobre : ministres, dirigeants de l'UA et OMS ouvrent la Semaine et lancent le Pôle de renforcement des capacités et le Pôle d'innovation réglementaire et de préparation à la production."
       },
       "card3": {
-        "title": "Renforcement des Capacités",
-        "description": "Favorisez la confiance entre les régulateurs et promouvez les mécanismes de confiance et de convergence."
+        "title": "Conférence des régulateurs africains du médicament",
+        "description": "29–30 octobre : la réunion annuelle des Chefs des ANR avec l'OMS sur la confiance réglementaire, conclue par l'adoption du Communiqué de Kigali."
       }
     },
     "speakers": {
@@ -68,16 +68,16 @@
     },
     "cta": {
       "title": "Réservez Votre Place au Dialogue Continental",
-      "description": "L'inscription est ouverte aux Chefs des ANR, aux représentants de la Commission de l'UA et aux partenaires techniques sélectionnés.",
+      "description": "La participation se fait sur invitation. Sont attendus les Chefs des ANR, les membres des Comités techniques, les ministres de la Santé, les organes de l'UA, les CER, l'OMS, les partenaires au développement, l'industrie et les médias.",
       "button": "Devenir Partenaire"
     },
     "sections": {
       "about": {
         "title": "Une Nouvelle Ère de Coopération Réglementaire",
-        "description": "Le Forum des Chefs des Autorités Nationales de Réglementation (HNRA) 2026 est un rassemblement historique conçu pour renforcer les réseaux réglementaires à travers l'Afrique. Cet événement inaugural réunira des dirigeants de tous les coins du continent.",
+        "description": "La Semaine inaugurale de l'Agence Africaine du Médicament (1re Semaine de l'AMA) est un rassemblement historique conçu pour renforcer les réseaux réglementaires à travers l'Afrique. Cet événement inaugural réunira des dirigeants de tous les coins du continent.",
         "highlight1": {
           "title": "Couverture Continentale",
-          "description": "Régulateurs des 55 États membres de l'UA"
+          "description": "Chefs des ANR des États membres de l'UA"
         },
         "highlight2": {
           "title": "Panels d'Experts",
@@ -87,7 +87,7 @@
           "title": "Résultats Stratégiques",
           "description": "Cadres d'action pour l'harmonisation"
         },
-        "learnMore": "En Savoir Plus sur le Forum"
+        "learnMore": "En Savoir Plus sur la Semaine de l'AMA"
       },
       "speakers": {
         "title": "Intervenants Distingués",
@@ -96,54 +96,56 @@
       },
       "cta": {
         "title": "Faites Partie de l'Histoire",
-        "description": "Le Forum HNRA inaugural représente un moment charnière pour la réglementation sanitaire africaine. Ne manquez pas cette opportunité de vous connecter avec vos pairs, de partager vos connaissances et de façonner l'avenir de la réglementation des médicaments sur le continent.",
+        "description": "La Semaine inaugurale de l'AMA représente un moment charnière pour la réglementation sanitaire africaine. Ne manquez pas cette opportunité de vous connecter avec vos pairs, de partager vos connaissances et de façonner l'avenir de la réglementation des médicaments sur le continent.",
         "button": "Réservez Votre Place Aujourd'hui"
       }
     }
   },
   "about": {
-    "title": "À Propos du Forum",
-    "subtitle": "Un rassemblement historique pour façonner l'avenir de la réglementation des médicaments en Afrique",
-    "headerSubtitle": "Établir une plateforme continentale de haut niveau pour le leadership réglementaire et le dialogue politique.",
+    "title": "À Propos de la Semaine de l'AMA",
+    "subtitle": "Bâtir ensemble l'avenir réglementaire de l'Afrique — De la force nationale à l'impact continental",
+    "headerSubtitle": "Six jours et onze réunions pour lancer le programme de travail opérationnel de l'Agence Africaine du Médicament, du 25 au 30 octobre 2026 à Kigali.",
     "executiveSummary": {
-      "title": "Résumé Exécutif",
-      "p1": "Le Forum des Chefs des Autorités Nationales de Réglementation est une plateforme continentale de haut niveau réunissant les Chefs des Autorités Nationales de Réglementation des Médicaments (ANR) des États membres de l'Union Africaine.",
-      "p2": "Organisé annuellement par l'Agence Africaine du Médicament (AMA) en collaboration avec un gouvernement hôte, le Forum offre un leadership stratégique, un dialogue politique et une prise de décision collective pour faire progresser l'harmonisation réglementaire et renforcer l'écosystème réglementaire des médicaments en Afrique.",
-      "p3": "Le Forum inaugural aura lieu les 29-30 janvier 2026 au Centre de Conventions de Kigali, Rwanda. Il réunira des dirigeants réglementaires de haut niveau, des décideurs et des partenaires sélectionnés pour s'aligner sur les réformes réglementaires prioritaires."
+      "title": "Contexte",
+      "p1": "Le Traité portant création de l'Agence Africaine du Médicament a été adopté par la Conférence de l'Union Africaine en février 2019 et est entré en vigueur en novembre 2021. L'AMA est opérationnelle depuis octobre 2025, depuis son siège à Kigali, au Rwanda.",
+      "p2": "En vertu du Traité, l'Agence coordonne et renforce les systèmes réglementaires continentaux : elle émet des avis scientifiques sur les produits médicaux d'intérêt continental, promeut la confiance réglementaire et la reconnaissance mutuelle, renforce les capacités des Autorités Nationales de Réglementation (ANR) et des Communautés Économiques Régionales (CER), et soutient l'harmonisation des exigences réglementaires sur le continent.",
+      "p3": "La 1re Semaine de l'AMA consolide les fondations opérationnelles de l'Agence : elle fait avancer les travaux de ses Comités techniques, lance ses Pôles de renforcement des capacités et d'innovation réglementaire et de préparation à la production, réunit les Chefs des Autorités Nationales de Réglementation en collaboration avec l'OMS et établit un canal structuré de dialogue avec l'industrie."
     },
     "background": {
-      "title": "Contexte et Historique",
-      "p1": "Les systèmes réglementaires fragmentés et les capacités inégales à travers l'Afrique continuent de retarder l'accès aux médicaments, vaccins, dispositifs médicaux et diagnostics de qualité assurée.",
-      "p2": "L'Agence Africaine du Médicament a été créée par l'Union Africaine pour renforcer la coordination, promouvoir l'harmonisation et soutenir la confiance réglementaire à travers les États membres de l'UA. Le Forum répond au besoin d'un engagement soutenu des dirigeants de haut niveau."
+      "title": "Objectif général",
+      "p1": "Lancer le programme de travail opérationnel de l'Agence Africaine du Médicament en réunissant ses structures techniques, afin de faire progresser l'harmonisation réglementaire continentale, renforcer la coopération entre les ANR, soutenir la production locale et l'innovation, améliorer la préparation aux urgences et faire de la Semaine de l'AMA une plateforme continentale de coopération réglementaire, d'échange scientifique et d'action collective.",
+      "p2": "L'AMA travaille avec les autorités nationales de réglementation et leur apporte une valeur ajoutée ; celles-ci restent seules compétentes pour délivrer les autorisations réglementaires dans leur pays, conformément aux lois nationales. Cette distinction guide la conception de la 1re Semaine de l'AMA."
     },
     "objectives": {
-      "title": "Objectifs du Forum",
-      "obj1": "Fournir une plateforme de dialogue de leadership",
-      "obj2": "Examiner les progrès de l'harmonisation",
-      "obj3": "Renforcer la collaboration AMA & ANR",
-      "obj4": "Convenir des actions politiques prioritaires"
+      "title": "Objectifs de la Semaine de l'AMA",
+      "obj1": "Évaluer les progrès de l'harmonisation réglementaire continentale au regard de critères convenus",
+      "obj2": "Renforcer la confiance réglementaire, le partage du travail et les réseaux entre ANR et avec l'AMA",
+      "obj3": "Établir un canal structuré de dialogue entre régulateurs et industrie et faire progresser la production locale",
+      "obj4": "Renforcer la préparation continentale de la réponse réglementaire aux urgences de santé publique",
+      "obj5": "Bâtir une approche durable du renforcement des capacités réglementaires grâce au Pôle de renforcement des capacités de l'AMA",
+      "obj6": "Adopter les plans de travail des Comités techniques et réunir le Réseau des Chefs des ANR africaines"
     },
     "eventDetails": {
       "title": "Détails de l'Événement",
       "dates": "Dates",
       "venue": "Lieu",
       "frequency": "Fréquence",
-      "frequencyValue": "Annuel (Événement Récurrent)"
+      "frequencyValue": "Six jours, onze réunions"
     },
     "impact": {
       "title": "Résultats et Impact Attendus",
-      "subtitle": "Établir les fondements d'un système de santé résilient grâce à des efforts réglementaires coordonnés.",
+      "subtitle": "Ce que la 1re Semaine de l'AMA doit produire.",
       "card1": {
-        "title": "Institutionnalisation",
-        "description": "Institutionnaliser le Forum comme convocation annuelle phare des dirigeants réglementaires."
+        "title": "Communiqué de Kigali",
+        "description": "Adopté lors de la Conférence des régulateurs africains du médicament, avec une matrice d'engagements mesurables."
       },
       "card2": {
-        "title": "Résilience du Système",
-        "description": "Des systèmes réglementaires plus solides, fondamentaux pour des systèmes de santé résilients à travers l'Afrique."
+        "title": "Comités techniques",
+        "description": "Constitués, avec des plans de travail et des documents de procédure adoptés, ainsi que des présidents et vice-présidents élus."
       },
       "card3": {
-        "title": "Orientation Stratégique",
-        "description": "Fournir une orientation stratégique claire à l'AMA et accroître l'adoption des mécanismes de confiance."
+        "title": "Deux Pôles de l'AMA",
+        "description": "Le Pôle de renforcement des capacités et le Pôle d'innovation réglementaire et de préparation à la production lancés avec des mandats et des calendriers clairs."
       }
     },
     "vision": {
@@ -165,25 +167,28 @@
     }
   },
   "speakers": {
-    "title": "Intervenants Distingués",
-    "subtitle": "Dirigeants réglementaires, décideurs et experts en santé réunis pour façonner l'avenir de l'Afrique.",
+    "title": "Intervenants",
+    "subtitle": "Des dirigeants de l'AMA, de l'Union Africaine, de l'OMS, des autorités nationales de réglementation et de l'industrie interviennent lors de la 1re Semaine de l'AMA.",
     "callForAbstracts": {
-      "title": "Appel à Résumés et Panélistes",
-      "description": "Êtes-vous un expert réglementaire intéressé à intervenir au Forum 2026 ? Nous invitons les candidatures pour les sessions techniques.",
+      "title": "Participants attendus",
+      "description": "La participation se fait sur invitation : Chefs des ANR et points focaux de l'AMA, membres des Comités techniques, ministres de la Santé, Conseil d'administration de l'AMA, organes de l'UA (CUA, Africa CDC, AUDA-NEPAD, ZLECAf), CER, OMS, partenaires au développement, RCORE, anciens du programme ARLP, associations industrielles et médias accrédités.",
       "button": "Soumettre un Résumé"
     }
   },
   "program": {
     "title": "Programme de l'Événement",
-    "subtitle": "Un programme complet de deux jours comprenant des sessions plénières, des dialogues stratégiques et la construction de consensus.",
-    "day1": "Jour 1",
-    "day2": "Jour 2",
-    "day1Label": "Jour 1 : Jeudi 29 Jan",
-    "day2Label": "Jour 2 : Vendredi 30 Jan",
-    "venueLabel": "KCC - Auditorium Principal",
+    "subtitle": "Six jours et onze réunions, de la Journée de la production et de l'innovation à la Conférence des régulateurs africains du médicament.",
+    "day1Label": "Dim. 25 oct.",
+    "day2Label": "Lun. 26 oct.",
     "speakersLabel": "Intervenants",
     "downloadPdf": "Télécharger le Programme Complet (PDF)",
-    "lastUpdated": "Dernière mise à jour : Octobre 2025"
+    "lastUpdated": "Dernière mise à jour : octobre 2026",
+    "day3Label": "Mar. 27 oct.",
+    "day4Label": "Mer. 28 oct.",
+    "day5Label": "Jeu. 29 oct.",
+    "day6Label": "Ven. 30 oct.",
+    "venueMarriott": "Hôtel Marriott, Kigali",
+    "venueUbumwe": "Ubumwe Grande Hotel, Kigali"
   },
   "destination": {
     "title": "Découvrez Kigali",
@@ -195,7 +200,7 @@
     "travelGuide": {
       "label": "Guide de Voyage",
       "title": "Bienvenue au Pays des Mille Collines",
-      "p1": "Kigali est largement reconnue comme l'une des villes les plus propres, les plus sûres et les plus dynamiques d'Afrique. En tant que ville hôte du Forum HNRA 2026, elle offre un mélange parfait d'infrastructures de classe mondiale et de culture rwandaise authentique.",
+      "p1": "Kigali est largement reconnue comme l'une des villes les plus propres, les plus sûres et les plus dynamiques d'Afrique. En tant que ville hôte de la 1re Semaine de l'AMA, elle offre un mélange parfait d'infrastructures de classe mondiale et de culture rwandaise authentique.",
       "p2": "Le Rwanda a simplifié son processus de visa, avec de nombreuses nationalités éligibles au visa à l'arrivée ou aux e-visas faciles, soutenant sa mission d'être un hub pour le dialogue continental.",
       "visa": {
         "title": "Info Visa",
@@ -209,12 +214,12 @@
     "cards": {
       "accommodation": {
         "title": "Hébergement",
-        "description": "Les hôtels partenaires incluent le Radisson Blu, le Kigali Marriott et le Serena Hotel, tous offrant des tarifs spéciaux pour le forum.",
+        "description": "Les hôtels partenaires incluent le Radisson Blu, le Kigali Marriott et le Serena Hotel, tous offrant des tarifs spéciaux pour la Semaine de l'AMA.",
         "link": "Réserver avec le code HNRA26"
       },
       "transport": {
         "title": "Se Déplacer",
-        "description": "Des services de navette officiels relieront les hôtels partenaires au KCC. Les applications de VTC comme Move sont largement disponibles.",
+        "description": "Des navettes officielles relieront les hôtels partenaires aux lieux de la Semaine. Les applications de VTC comme Move sont largement disponibles.",
         "link": "Horaires des Transports"
       },
       "attractions": {
@@ -224,12 +229,12 @@
       }
     },
     "venue": {
-      "label": "Le Lieu",
-      "title": "Centre de Conventions de Kigali (KCC)",
-      "description": "Un chef-d'œuvre architectural inspiré du tissage traditionnel rwandais, le KCC est un emblème de Kigali et le lieu de réunion le plus prestigieux de la région.",
-      "feature1": "Technologie audiovisuelle de pointe",
-      "feature2": "Connecté à l'Hôtel Radisson Blu",
-      "feature3": "Capacité de plus de 5 000 délégués",
+      "label": "Les lieux",
+      "title": "Hôtel Marriott et Ubumwe Grande Hotel",
+      "description": "La Semaine se tient dans deux lieux à Kigali : l'Hôtel Marriott du 25 au 27 octobre, et l'Ubumwe Grande Hotel du 28 au 30 octobre.",
+      "feature1": "Hôtel Marriott : 25–27 octobre",
+      "feature2": "Ubumwe Grande Hotel : 28–30 octobre",
+      "feature3": "Interprétation en français et en portugais pour les sessions plénières",
       "button": "Voir la Carte Interactive"
     }
   },
@@ -258,7 +263,7 @@
     }
   },
   "register": {
-    "title": "Inscription au Forum",
+    "title": "Inscription à la Semaine de l'AMA",
     "subtitle": "Rejoignez les leaders de toute l'Afrique lors de cet événement historique",
     "steps": {
       "personal": "Informations Personnelles",
@@ -306,11 +311,11 @@
       "consent": "Consentement",
       "photoConsentYes": "Consentement photo accordé",
       "photoConsentNo": "Consentement photo non accordé",
-      "confirmation": "En soumettant cette inscription, vous confirmez que toutes les informations fournies sont exactes et acceptez les termes et conditions du forum."
+      "confirmation": "En soumettant cette inscription, vous confirmez que toutes les informations fournies sont exactes et acceptez les termes et conditions de la Semaine de l'AMA."
     },
     "success": {
       "title": "Inscription Soumise !",
-      "message": "Merci de vous être inscrit(e) au Forum HNRA 2026. Vous recevrez sous peu un email de confirmation avec plus de détails.",
+      "message": "Merci de vous être inscrit(e) à la 1re Semaine de l'AMA. Vous recevrez sous peu un email de confirmation avec plus de détails.",
       "backHome": "Retour à l'Accueil"
     },
     "validation": {
@@ -318,16 +323,16 @@
     }
   },
   "footer": {
-    "description": "Une plateforme continentale de haut niveau réunissant les Chefs des Autorités Nationales de Réglementation des Médicaments pour faire progresser l'harmonisation réglementaire en Afrique.",
+    "description": "La Semaine inaugurale de l'Agence Africaine du Médicament (1re Semaine de l'AMA) - Bâtir ensemble l'avenir réglementaire de l'Afrique — De la force nationale à l'impact continental. Kigali, Rwanda, 25–30 octobre 2026.",
     "quickLinks": "Liens Rapides",
-    "aboutForum": "À Propos du Forum",
+    "aboutForum": "À Propos de la Semaine de l'AMA",
     "eventProgram": "Programme de l'Événement",
     "destinationGuide": "Guide de Destination",
     "partnersSponsors": "Partenaires et Sponsors",
     "contactUs": "Contactez-Nous",
     "newsletter": {
       "title": "Newsletter",
-      "description": "Restez informé(e) des dernières nouvelles concernant le Forum 2026.",
+      "description": "Restez informé(e) des dernières nouvelles concernant la 1re Semaine de l'AMA.",
       "placeholder": "Votre email",
       "button": "S'abonner"
     },

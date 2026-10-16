@@ -4,11 +4,15 @@ import { useTranslation } from 'react-i18next';
 import { PROGRAM } from '../constants';
 import { Clock, MapPin, Download } from 'lucide-react';
 
+const DAYS = [1, 2, 3, 4, 5, 6];
+
 const Program: React.FC = () => {
   const { t } = useTranslation();
   const [activeDay, setActiveDay] = useState(1);
 
   const filteredProgram = PROGRAM.filter(item => item.day === activeDay);
+  // Marriott Hotel hosts 25–27 October (days 1–3); Ubumwe Grande Hotel hosts 28–30 October (days 4–6).
+  const venueLabel = activeDay <= 3 ? t('program.venueMarriott') : t('program.venueUbumwe');
 
   return (
     <div className="bg-slate-50 min-h-screen">
@@ -24,27 +28,20 @@ const Program: React.FC = () => {
       <section className="py-24">
         <div className="container mx-auto px-4 max-w-4xl">
           {/* Day Selector */}
-          <div className="flex justify-center gap-4 mb-16 animate-fade-in-up animate-delay-100">
-            <button
-              onClick={() => setActiveDay(1)}
-              className={`px-8 py-4 rounded-2xl font-bold transition-all hover-lift ${
-                activeDay === 1
-                ? 'bg-ama-maroon text-white shadow-xl scale-105 hover-glow'
-                : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:border-ama-maroon'
-              }`}
-            >
-              {t('program.day1Label')}
-            </button>
-            <button
-              onClick={() => setActiveDay(2)}
-              className={`px-8 py-4 rounded-2xl font-bold transition-all hover-lift ${
-                activeDay === 2
-                ? 'bg-ama-maroon text-white shadow-xl scale-105 hover-glow'
-                : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:border-ama-maroon'
-              }`}
-            >
-              {t('program.day2Label')}
-            </button>
+          <div className="flex flex-wrap justify-center gap-3 mb-16 animate-fade-in-up animate-delay-100">
+            {DAYS.map(day => (
+              <button
+                key={day}
+                onClick={() => setActiveDay(day)}
+                className={`px-6 py-4 rounded-2xl font-bold transition-all hover-lift ${
+                  activeDay === day
+                  ? 'bg-ama-maroon text-white shadow-xl scale-105 hover-glow'
+                  : 'bg-white text-slate-600 border border-slate-200 hover:bg-slate-50 hover:border-ama-maroon'
+                }`}
+              >
+                {t(`program.day${day}Label`)}
+              </button>
+            ))}
           </div>
 
           {/* Timeline */}
@@ -62,7 +59,7 @@ const Program: React.FC = () => {
                     </div>
                     <div className="flex items-center gap-2 text-slate-500 text-sm font-medium hover-scale">
                       <MapPin size={16} />
-                      <span>{t('program.venueLabel')}</span>
+                      <span>{venueLabel}</span>
                     </div>
                   </div>
 

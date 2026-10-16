@@ -27,7 +27,8 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
   const navItems = [
     { name: t('nav.home'), path: '/', end: true },
     { name: t('nav.about'), path: '/about', end: false },
-    { name: t('nav.speakers'), path: '/speakers', end: false },
+    // Speakers page hidden for now
+    // { name: t('nav.speakers'), path: '/speakers', end: false },
     { name: t('nav.program'), path: '/program', end: false },
     { name: t('nav.destination'), path: '/destination', end: false },
     { name: t('nav.partners'), path: '/partners', end: false },
@@ -64,7 +65,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
             >
               <img
                 src={logoColor}
-                alt="HoNRAF Forum logo"
+                alt="AMA Week logo"
                 className="h-12 object-contain"
               />
             </Link>
@@ -201,7 +202,7 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                 <div className="w-42 h-10 flex items-center">
                   <img
                     src={logoWhite}
-                    alt="HoNRAF Forum logo"
+                    alt="AMA Week logo"
                     className="h-10 object-contain"
                   />
                 </div>
@@ -259,14 +260,6 @@ const Layout: React.FC<{ children: React.ReactNode }> = ({ children }) => {
                     className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
                   >
                     {t('footer.aboutForum')}
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/speakers"
-                    className="hover:text-ama-gold hover:translate-x-2 transition-all flex items-center gap-2"
-                  >
-                    {t('nav.speakers')}
                   </Link>
                 </li>
                 <li>
