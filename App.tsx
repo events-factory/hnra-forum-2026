@@ -4,7 +4,8 @@ import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-d
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import About from './pages/About';
-import Speakers from './pages/Speakers';
+// Speakers page hidden for now
+// import Speakers from './pages/Speakers';
 import Program from './pages/Program';
 import Partners from './pages/Partners';
 import Destination from './pages/Destination';
@@ -27,7 +28,7 @@ const App: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/speakers" element={<Speakers />} />
+          {/* <Route path="/speakers" element={<Speakers />} /> */}
           <Route path="/program" element={<Program />} />
           <Route path="/partners" element={<Partners />} />
           <Route path="/destination" element={<Destination />} />

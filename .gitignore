@@ -13,7 +13,6 @@ dist-ssr
 *.local
 
 # Editor directories and files
-.vscode/*
 !.vscode/extensions.json
 .idea
 .DS_Store
@@ -25,8 +24,6 @@ dist-ssr
 config.bat
 
 # --- env files (ensure-env-gitignored.sh) ---
-.env
-.env.*
 !.env.example
 !.env.sample
 !.env.template
