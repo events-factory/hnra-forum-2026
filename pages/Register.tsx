@@ -112,7 +112,7 @@ const Register: React.FC = () => {
             Delegate Registration
           </h1>
           <p className="text-xl text-slate-200 max-w-2xl mx-auto text-center animate-fade-in-up animate-delay-200">
-            Join us at the Heads of National Regulatory Authorities Forum 2026
+            Join us at the Inaugural African Medicines Agency Week (1st AMA Week)
           </p>
         </div>
       </section>
@@ -477,7 +477,7 @@ const Register: React.FC = () => {
                             Photography & Media Consent
                           </span>
                           <p className="text-xs text-slate-600 mt-1">
-                            I consent to being photographed and recorded during the forum. Photos and videos may be used for promotional purposes by the African Medicines Agency and event partners.
+                            I consent to being photographed and recorded during the AMA Week. Photos and videos may be used for promotional purposes by the African Medicines Agency and event partners.
                           </p>
                         </div>
                       </label>
